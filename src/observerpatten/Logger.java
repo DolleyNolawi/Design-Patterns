@@ -1,4 +1,4 @@
-package observer;
+package observerpatten;
 
 public class Logger implements Observer, DisplayElement{
     private double currentbalance = 3.0;

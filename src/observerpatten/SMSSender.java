@@ -1,4 +1,4 @@
-package observer;
+package observerpatten;
 
 public class SMSSender implements Observer, DisplayElement{
 

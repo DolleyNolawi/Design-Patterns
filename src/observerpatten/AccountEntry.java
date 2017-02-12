@@ -1,4 +1,4 @@
-package observer;
+package observerpatten;
 
 public class AccountEntry {
 	public String date;
