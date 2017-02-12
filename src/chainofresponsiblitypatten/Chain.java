@@ -1,10 +1,7 @@
 package chainofresponsiblitypatten;
 
-public class Chain {
-
-	public static void main(String[] args) {
-		System.out.println("hi");
-
-	}
+public interface Chain {
+	public void setNextChain(Chain nextChain);
+	public void calculate(Numbers request);
 
 }
